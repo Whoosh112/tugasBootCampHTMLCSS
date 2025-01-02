@@ -1,0 +1,151 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+  }
+  
+  .navbar > ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  
+  .navbar > ul > li{
+    margin: 10px;
+  }
+
+  body {
+    background-color: grey; 
+  }
+  
+  section{
+    margin-top: 80px;
+  }
+  
+  .container {
+    display: flex;         
+    justify-content: center;        
+    gap: 14px;
+    flex-direction: row;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .box{
+    width: 95vw;
+    height: 40vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }   
+
+  .container > .box > .tombol{
+    display: flex;
+
+  }
+  
+  .rothko{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .frame{
+    width: 600px;
+    height: 700px;
+    border: 30px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+    
+  .canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+    overflow: hidden;
+  }
+  
+  .one{
+    width: 400px;
+    height: 300px;
+    background-color: #c2988d;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .one h1 {
+    color: white;
+    font-size: 24px; 
+    text-align: center; 
+  }
+  
+  .subone{
+    width: 80%;
+    height: 50%;
+    margin: 10px;
+    background-color: purple;
+  }
+  
+  .two{
+    width: 375px;
+    height: 100px;
+    background-color: green;
+    margin: auto;
+  }
+  
+  .three{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(43, 51, 158);
+    margin: 20px auto;
+  }
+  
+  .article{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px 20px;
+  }
+  
+  .pricebox{
+    display: flex;         
+    justify-content: center;
+  }
+  
+  .pricebox > div{
+    display: flex;         
+    align-items:center;
+    flex-direction: column; 
+    border: 5px solid black;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 3px;
+    margin: 10px;
+  }
+  
+  h2{
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .pricebox > div > ol{
+    list-style-type: none;
+  }
