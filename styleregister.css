@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url('assetgambar/gambarlogin.avif');
+  background-image: url('assetgambar/gambarregister.jpg');
   background-size: cover; background-repeat: no-repeat; background-position: center;
   display: flex;
   justify-content: center;     
