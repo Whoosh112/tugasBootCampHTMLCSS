@@ -130,12 +130,20 @@
 }
 
 @media only screen and (max-width: 650px) {
+  body{
+    overflow-x: hidden;
+  }
+
   .kotakfilm p {
-      margin-left: 375px; 
+      margin-left: 700px; 
   }
 
   .kotakfilm {
       padding: 20px; 
+  }
+
+  .lanjutfilm{
+    margin-left: 700px; 
   }
 
   .boxfilm11, .boxfilm12, .boxfilm13, .boxfilm14, .boxfilm15, 
@@ -147,7 +155,7 @@
 
   .lanjutfilm1, .lanjutfilm2, .lanjutfilm3, .lanjutfilm4 {
       width: 315px;
-      height: 100px;
+      height: 200px;
   }
 
   .bagianfooter {
