@@ -88,12 +88,30 @@
 
   .lanjutfilm1,  .lanjutfilm2, .lanjutfilm3, .lanjutfilm4 {
     padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
     text-align: center;
     width: 315px;
-    height: 100px;
+    height: 150px;
 }
+
+  .lanjutfilm1{
+    background-image: url('assetgambar/assetgambarberanda/dontlookuplanjut.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .lanjutfilm2{
+    background-image: url('assetgambar/assetgambarberanda/allofusaredeadlanjut.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .lanjutfilm3{
+    background-image: url('assetgambar/assetgambarberanda/bluelocklanjut.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .lanjutfilm4{
+    background-image: url('assetgambar/assetgambarberanda/amancalledottolanjut.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
 
   .film1, .film2, .film3{
     display: flex;
@@ -107,12 +125,71 @@
   .boxfilm21, .boxfilm22, .boxfilm23, .boxfilm24, .boxfilm25,
   .boxfilm31, .boxfilm32, .boxfilm33, .boxfilm34, .boxfilm35 {
     padding: 10px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
     text-align: center;
     width: 250px;
     height: 350px;
 }
+
+  .boxfilm11{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/suzume.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm12{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/jurassicworlddominion.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm13{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/sonic2.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm14, .boxfilm34{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/allofusaredead.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm15, .boxfilm33{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/bighero6.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm21{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/thetomorrowwar.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm22{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/quantumania.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm23{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/guardianofthegalaxyvol3.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm24{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/amancalledotto.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm25, .boxfilm31{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/thelittlemermaid.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm32{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/dutyafterschool.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+  .boxfilm35{
+    background-image: url('assetgambar/assetgambarberanda/filmnya/missing.png');
+    background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
 
 .bagianfooter{
   display: flex;
@@ -129,7 +206,7 @@
   flex-basis: 100%; 
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
   body{
     overflow-x: hidden;
   }
@@ -139,18 +216,22 @@
   }
 
   .kotakfilm {
-      padding: 20px; 
+    padding: 20px; 
   }
 
   .lanjutfilm{
     margin-left: 700px; 
   }
 
+  .film1, .film2, .film3{
+    margin-left: 450px; 
+  }
+
   .boxfilm11, .boxfilm12, .boxfilm13, .boxfilm14, .boxfilm15, 
   .boxfilm21, .boxfilm22, .boxfilm23, .boxfilm24, .boxfilm25,
   .boxfilm31, .boxfilm32, .boxfilm33, .boxfilm34, .boxfilm35 {
-      width: 100px;
-      height: 150px;
+      width: 200px;
+      height: 350px;
   }
 
   .lanjutfilm1, .lanjutfilm2, .lanjutfilm3, .lanjutfilm4 {
