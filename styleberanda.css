@@ -12,7 +12,7 @@
     align-items: center;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(224,224,224);
   }
   
   .navbar{
@@ -69,7 +69,6 @@
 
   .avatar{
     border-radius: 100px;
-
   }
 
   .boxtombol {
@@ -149,12 +148,37 @@
     margin: 10px;
   }
 
+  .lanjutfilm1, .lanjutfilm2, .lanjutfilm3, .lanjutfilm4 {
+    padding: 10px;
+    text-align: center;
+    width: 320px;
+    height: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    align-content: flex-end;
+}
+
+  .lanjutfilm3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+  }
+
   .kotakfilm {
     display: flex;
     flex-direction: column;
     margin: 25px;
     font-size: 30px;
-    
+  }
+
+  .namafilm{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rating{
+    display: flex;
+    justify-content: center;
   }
 
   .kotakfilm > p{
@@ -175,32 +199,37 @@
     border: 0
   }
   
-  .lanjutfilm1, .lanjutfilm2, .lanjutfilm3, .lanjutfilm4 {
-    padding: 10px;
-    text-align: center;
-    width: 320px;
-    height: 150px;
-    border-radius: 10px;
+.top10{
+  background: red;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  width: 50px;
+  margin-left: 65%;
+}
 
+.episodebaru{
+  background: blue;
+  font-size: 20px;
 }
 
   .lanjutfilm1{
-    background-image: url('assetgambar/assetgambarberanda/dontlookuplanjut.png');
+    background: linear-gradient(180deg, rgba(18,18,18,0), rgba(18,18,18,1)), url('assetgambar/assetgambarberanda/dontlookuplanjut.png');
     background-size: cover; background-repeat: no-repeat; background-position: center;
   }
 
   .lanjutfilm2{
-    background-image: url('assetgambar/assetgambarberanda/allofusaredeadlanjut.png');
+    background: linear-gradient(180deg, rgba(18,18,18,0), rgba(18,18,18,1)), url('assetgambar/assetgambarberanda/allofusaredeadlanjut.png');
     background-size: cover; background-repeat: no-repeat; background-position: center;
   }
 
   .lanjutfilm3{
-    background-image: url('assetgambar/assetgambarberanda/bluelocklanjut.png');
+    background: linear-gradient(180deg, rgba(18,18,18,0), rgba(18,18,18,1)), url('assetgambar/assetgambarberanda/bluelocklanjut.png');;
     background-size: cover; background-repeat: no-repeat; background-position: center;
   }
 
   .lanjutfilm4{
-    background-image: url('assetgambar/assetgambarberanda/amancalledottolanjut.png');
+    background: linear-gradient(180deg, rgba(18,18,18,0), rgba(18,18,18,1)), url('assetgambar/assetgambarberanda/amancalledottolanjut.png');
     background-size: cover; background-repeat: no-repeat; background-position: center;
   }
 
@@ -290,6 +319,7 @@
   border-top-style: solid;
   border-top-color: grey;
   border-width: thin;
+  padding: 20px;
 }
 
 .genre{
@@ -299,6 +329,10 @@
 
 .genreheader {
   flex-basis: 100%; 
+}
+
+.chevron{
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -340,13 +374,29 @@
 
   .bagianfooter {
       flex-direction: column;
+      padding: 20px;
   }
 
-  .bagiancopyright{
+  .genre{
     margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
+  .chevron{
+    display: block;
+  }
+
+  .genreheader, .bantuanheader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 
   .tombolkiri, .tombolkanan{
     display: none;
+  }
+
+  .bantuan > ul, .genre > ul {
+    display: none
   }
 }
