@@ -204,13 +204,20 @@
   display: flex;
   justify-content: center;
   font-size: 20px;
-  width: 50px;
-  margin-left: 65%;
+  width: 20%;
+  height: 17%;
+  margin-left: 75%;
+  padding-top: 3%;
+  position: relative;
+  bottom: 10px;
+  border-radius: 10px 15px;
 }
 
 .episodebaru{
   background: blue;
   font-size: 20px;
+  width: 70%;
+  border-radius: 10px;
 }
 
   .lanjutfilm1{
@@ -327,6 +334,13 @@
   flex-wrap: wrap;
 }
 
+.genre > ul, .bantuan > ul{
+  margin: 10px;
+}
+
+.genre1 > ul > li, .genre2 > ul > li{
+}
+
 .genreheader {
   flex-basis: 100%; 
 }
@@ -398,5 +412,15 @@
 
   .bantuan > ul, .genre > ul {
     display: none
+  }
+
+  .top10{
+    font-size: 14px;
+    border-radius: 5px 10px;
+
+  }
+  
+  .episodebaru{
+    font-size: 14px;
   }
 }
