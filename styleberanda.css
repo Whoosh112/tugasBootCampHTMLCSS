@@ -398,7 +398,12 @@
   }
 
   .chevron{
-    display: block;
+    display: flex;
+  }
+
+  .genre > .genreheader > .chevron{
+    display: flex;
+    margin-left: 18px;
   }
 
   .genreheader, .bantuanheader{
@@ -418,7 +423,6 @@
   .top10{
     font-size: 14px;
     border-radius: 5px 10px;
-
   }
   
   .episodebaru{
