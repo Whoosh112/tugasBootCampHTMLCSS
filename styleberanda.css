@@ -338,7 +338,8 @@
   margin: 10px;
 }
 
-.genre1 > ul > li, .genre2 > ul > li{
+.genre1 > li, .genre2 > li, .genre3 > li, .genre4 > li, .bantuan ul > li {
+  margin: 10px;
 }
 
 .genreheader {
